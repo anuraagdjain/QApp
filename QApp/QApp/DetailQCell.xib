@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="detailQ" rowHeight="203" id="WAG-mb-wkY" customClass="DetailQCell" customModule="QApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="203"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WAG-mb-wkY" id="bcG-yI-CqJ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="202"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Q" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziN-rz-r50">
+                        <rect key="frame" x="288" y="44" width="75" height="115"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="100"/>
+                        <color key="textColor" red="0.79215686269999996" green="0.039215686270000001" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why do people ask even simple question on Stackoverflow?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOU-ZY-vVx">
+                        <rect key="frame" x="18" y="68" width="339" height="30.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#UI #UX #stackoverflow" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="339" translatesAutoresizingMaskIntoConstraints="NO" id="ZxO-L0-1Lh">
+                        <rect key="frame" x="12" y="143" width="351" height="20"/>
+                        <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="14"/>
+                        <color key="textColor" red="0.91372549020000005" green="0.49803921569999998" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="D64-9T-E21">
+                        <rect key="frame" x="146" y="170" width="54" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="QuB-Wi-a5f"/>
+                        </constraints>
+                        <inset key="titleEdgeInsets" minX="4" minY="0.0" maxX="-10" maxY="0.0"/>
+                        <state key="normal" title="100" image="views"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="FON-BS-Jgb">
+                        <rect key="frame" x="78" y="170" width="56" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="vBh-BJ-QgS"/>
+                        </constraints>
+                        <inset key="titleEdgeInsets" minX="4" minY="0.0" maxX="-10" maxY="0.0"/>
+                        <state key="normal" title="100" image="heart"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="V5f-J3-fWD">
+                        <rect key="frame" x="12" y="170" width="54" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="VNU-dP-U3r"/>
+                        </constraints>
+                        <inset key="titleEdgeInsets" minX="4" minY="0.0" maxX="-10" maxY="0.0"/>
+                        <state key="normal" title="100" image="comment"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dummy_profile" translatesAutoresizingMaskIntoConstraints="NO" id="Cni-bj-35N">
+                        <rect key="frame" x="10" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="4AV-O5-uhu"/>
+                            <constraint firstAttribute="height" constant="50" id="6QM-YT-3lC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anuraag D Jain" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="291" translatesAutoresizingMaskIntoConstraints="NO" id="1eX-cY-T4G">
+                        <rect key="frame" x="72" y="12" width="291" height="24"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mky-Cu-ib0">
+                        <rect key="frame" x="72" y="37" width="291" height="32"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                        <state key="normal" title="@anuraagdjain">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.83137254900000002" green="0.090196078430000007" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="1eX-cY-T4G" firstAttribute="leading" secondItem="Cni-bj-35N" secondAttribute="trailing" constant="12" id="3mZ-z8-j44"/>
+                    <constraint firstItem="mky-Cu-ib0" firstAttribute="leading" secondItem="Cni-bj-35N" secondAttribute="trailing" constant="12" id="5GI-im-fVg"/>
+                    <constraint firstItem="1eX-cY-T4G" firstAttribute="top" secondItem="bcG-yI-CqJ" secondAttribute="top" constant="12" id="5gW-RC-Nfx"/>
+                    <constraint firstItem="FON-BS-Jgb" firstAttribute="leading" secondItem="V5f-J3-fWD" secondAttribute="trailing" constant="12" id="74r-6S-fw0"/>
+                    <constraint firstAttribute="trailing" secondItem="IOU-ZY-vVx" secondAttribute="trailing" constant="18" id="E8W-rZ-mqy"/>
+                    <constraint firstAttribute="bottom" secondItem="V5f-J3-fWD" secondAttribute="bottom" constant="8" id="JLW-wI-hoe"/>
+                    <constraint firstAttribute="trailing" secondItem="ZxO-L0-1Lh" secondAttribute="trailing" constant="12" id="Me2-9j-vj7"/>
+                    <constraint firstItem="mky-Cu-ib0" firstAttribute="top" secondItem="1eX-cY-T4G" secondAttribute="bottom" constant="1" id="RlE-2R-NnQ"/>
+                    <constraint firstAttribute="bottom" secondItem="D64-9T-E21" secondAttribute="bottom" constant="8" id="WYR-MY-ks2"/>
+                    <constraint firstAttribute="bottom" secondItem="IOU-ZY-vVx" secondAttribute="bottom" constant="104" id="csn-wS-dWd"/>
+                    <constraint firstAttribute="trailing" secondItem="1eX-cY-T4G" secondAttribute="trailing" constant="12" id="fgW-Kd-Ypc"/>
+                    <constraint firstItem="IOU-ZY-vVx" firstAttribute="top" secondItem="Cni-bj-35N" secondAttribute="bottom" constant="8" id="fok-3s-s4k"/>
+                    <constraint firstAttribute="trailing" secondItem="mky-Cu-ib0" secondAttribute="trailing" constant="12" id="h9h-KE-lMm"/>
+                    <constraint firstAttribute="bottom" secondItem="ZxO-L0-1Lh" secondAttribute="bottom" constant="39" id="j0e-8p-GSO"/>
+                    <constraint firstItem="IOU-ZY-vVx" firstAttribute="leading" secondItem="bcG-yI-CqJ" secondAttribute="leading" constant="18" id="lhc-BZ-Ek0"/>
+                    <constraint firstItem="D64-9T-E21" firstAttribute="leading" secondItem="FON-BS-Jgb" secondAttribute="trailing" constant="12" id="m1q-vw-JFE"/>
+                    <constraint firstItem="Cni-bj-35N" firstAttribute="leading" secondItem="bcG-yI-CqJ" secondAttribute="leading" constant="10" id="rYL-AV-D5q"/>
+                    <constraint firstItem="V5f-J3-fWD" firstAttribute="leading" secondItem="bcG-yI-CqJ" secondAttribute="leading" constant="12" id="rhd-2h-nQg"/>
+                    <constraint firstItem="ZxO-L0-1Lh" firstAttribute="leading" secondItem="bcG-yI-CqJ" secondAttribute="leading" constant="12" id="vJc-bF-KWQ"/>
+                    <constraint firstItem="Cni-bj-35N" firstAttribute="top" secondItem="bcG-yI-CqJ" secondAttribute="top" constant="10" id="xx1-vm-1It"/>
+                    <constraint firstAttribute="bottom" secondItem="FON-BS-Jgb" secondAttribute="bottom" constant="8" id="yEC-aO-ETs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="profileImg" destination="Cni-bj-35N" id="ZVB-Fb-bJn"/>
+                <outlet property="questionLabel" destination="IOU-ZY-vVx" id="dXQ-Bm-6NP"/>
+                <outlet property="tagsLabel" destination="ZxO-L0-1Lh" id="M4m-Y2-J26"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="66.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="comment" width="24" height="24"/>
+        <image name="dummy_profile" width="48" height="48"/>
+        <image name="heart" width="26" height="26"/>
+        <image name="views" width="24" height="24"/>
+    </resources>
+</document>
